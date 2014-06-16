@@ -5,6 +5,7 @@ Tingri::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   get 'gdocs/index'
+  get 'sdocs/index'
   get 'gists/index'
   get 'standard_links/about'
   get 'standard_links/contact'
