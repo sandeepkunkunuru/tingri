@@ -9,7 +9,6 @@ Tingri::Application.routes.draw do
   get 'sdocs/index'
   get 'gists/index'
   get 'standard_links/about'
-  get 'standard_links/contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -45,7 +44,7 @@ Tingri::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

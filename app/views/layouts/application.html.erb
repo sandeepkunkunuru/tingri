@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tingri</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-  <%= render :partial => "layouts/header" %>
+    <title>Tingri</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <%= render :partial => 'layouts/header' %>
 </head>
 <body>
-<%= render :partial => "layouts/menu" %>
+<%= render :partial => 'layouts/menu' %>
 
 <!-- Jumbotron -->
 <div class="jumbotron">
     <%= yield %>
-    <%= render :partial => "layouts/footer" %>
+    <%= render :partial => 'layouts/footer' %>
 </div>
 
 </body>

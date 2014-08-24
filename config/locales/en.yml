@@ -27,3 +27,4 @@ en:
   JMS_EAI: "jmseai"
   THREAD_GIST_LABEL: "Multi-Threaded programming using join,wait,notify"
   THREAD: "thread"
+  WebService_Command_Line: "Invoking Webservice from command line"

@@ -1,28 +1,55 @@
-== README
+= README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site is built using
 
-Things you may want to cover:
+* Ubuntu
+* AWS : EC2, Elastic IP
+* Apache : 3 Sites, Virtual Hosts, a2ensite, a2enmod, mod proxy http, customized document Root
+* JRuby on Rails
+* JQuery
+* Twitter Bootstrap: JS and CSS
+* Google Drive: Docs and Presentations
+* Atlassian: Jira and GreenHopper
+* Git
+* Google Analytics
+* WordPress
 
-* Ruby version
+== Tasks
 
-* System dependencies
+Below is the sequence of tasks that I took thus far
 
-* Configuration
+* Setup an EC2 node
+* Purchase a reserved instance of m1.large type
+** choice of m1.large was made based on three factors
+** Considerable memory may be required for the large number of applications that will be setup
+** Higher CPU may not be required given that the load will not be high
+** micro, small, medium may be too small for the memory requirements and m2.xlarge would be too high
+* Purchase a reserved instance of shortest term possible (In this case I purchased a node from a 3rd party for 1 month term)
+* Consider a heavy utilization instance since, the node has to be up and running all the time and load cannot be predicted.
+* Take Ubuntu 13.04 AMI
+* Setup Apache
+* Setup MySQL
+* Purchase and Configure a domain name
+* Purchase Jira Starter license and Setup Jira with MySQL as backend
+* Setup WordPress with MySQL as backend
+* Setup a private repository on bitbucket.org to host website project
+* Configure website with Twitter bootstrap starter template
+* Configure website to centralize all content
 
-* Database creation
+== References
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/R53Example.html
+* http://www.icann.org/en/resources/registries/listing
+* http://www.registry.pro/
+* http://www.registry.pro/professionals/find
+* https://www.name.com/
+* http://venturebeat.com/2013/06/13/latest-trends-creative-branding-with-a-me-domain-name/
+* http://www.denizoguz.com/2013/04/08/installing-jira-on-amazon-ec2-ubuntu-small-instance/
+* https://confluence.atlassian.com/display/JIRA/Integrating+JIRA+with+Apache
+* https://confluence.atlassian.com/display/JIRA/Running+the+Setup+Wizard
+* http://httpd.apache.org/docs/current/vhosts/examples.html
+* https://www.digitalocean.com/community/articles/how-to-install-wordpress-on-ubuntu-12-04
+* http://www.jeremymorgan.com/tutorials/linux/how-to-install-apache-php-and-mysql-on-ubuntu-12-dot-10-quantal-quetzal/
+* http://davidwalsh.name/center-website
+* http://getbootstrap.com/
+* http://blog.themeforest.net/tutorials/simple-layouts-with-php/
