@@ -10,8 +10,11 @@
 <body>
 <%= render :partial => "layouts/menu" %>
 
-<%= yield %>
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <%= yield %>
+    <%= render :partial => "layouts/footer" %>
+</div>
 
-<%= render :partial => "layouts/footer" %>
 </body>
 </html>

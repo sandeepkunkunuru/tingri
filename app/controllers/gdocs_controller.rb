@@ -15,4 +15,7 @@ class GdocsController < ApplicationController
   def index
     @src = @@gdocs[params["d"].to_sym]
   end
+
+  def certifications
+  end
 end
