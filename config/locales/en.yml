@@ -23,7 +23,7 @@ en:
   hello: "Hello world"
   bpel: "bpel"
   MTECH_FINAL_PROJECT: "Implementation of workflows using BPEL"
-  MTECH_MID_PROJECT: "JMS Based EAI"
+  MTECH_MID_PROJECT: "JMS based EAI"
   JMS_EAI: "jmseai"
   THREAD_GIST_LABEL: "Multi-Threaded programming using join,wait,notify"
   THREAD: "thread"
