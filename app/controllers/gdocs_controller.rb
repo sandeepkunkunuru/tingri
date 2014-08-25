@@ -13,7 +13,8 @@ class GdocsController < ApplicationController
   }
 
   def index
-    @src = @@gdocs[params['d'].to_sym]
+		d = params['d'].blank? ? :resume : params['d'].to_sym;
+    @src = @@gdocs[d]
   end
 
   def certifications

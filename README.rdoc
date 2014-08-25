@@ -53,3 +53,4 @@ Below is the sequence of tasks that I took thus far
 * http://davidwalsh.name/center-website
 * http://getbootstrap.com/
 * http://blog.themeforest.net/tutorials/simple-layouts-with-php/
+* http://stackoverflow.com/questions/1027354/need-an-unordered-list-without-any-bullets
