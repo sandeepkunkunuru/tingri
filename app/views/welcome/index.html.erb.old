@@ -1,0 +1,40 @@
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>Some projects</h2>
+            <br>
+            <br>
+            <ul class="ul-list-style-none">
+                <li><a href="http://gem.tingri.me">Energy Hackathon: Green Energy Monitor</a></li>
+                <li><a href="https://github.com/sandeepkunkunuru/voltdb-jdbc-loader">VoltDB: JDBC Data Migration Tool</a></li>
+                <li><a href="https://github.com/sandeepkunkunuru/37bm_greenhouse_gas_emissions">37bm: Green House Gas Emissions</a></li>
+                <li><a href="https://github.com/sandeepkunkunuru/big_data">Hive: Stand alone tutorial</a></li>
+            </ul>
+
+        </div>
+        <div class="col-lg-4">
+            <h2>Some gists</h2>
+            <br>
+            <br>
+            <ul class="ul-list-style-none">
+                <li><%= link_to t('THREAD_GIST_LABEL'), gists_index_path(:d => t('THREAD')) %></li>
+                <li><%= link_to 'VoltDB Puppet manifest', gists_index_path(:d => 'puppet') %></li>
+                <li><%= link_to 'Plot to compare Big O functions', gists_index_path(:d => 'bigocomparison') %></li>
+                <li><%= link_to 'Tagging without Javascript', gists_index_path(:d => 'tagwithoutjs') %></li>
+            </ul>
+
+        </div>
+        <div class="col-lg-4">
+            <h2>Some notes</h2>
+            <br>
+            <br>
+            <ul class="ul-list-style-none">
+                <li><%= link_to 'Java', gdocs_index_path(:d => 'java') %></li>
+                <li><%= link_to 'Javascript', gdocs_index_path(:d => 'javascript') %></li>
+                <li><%= link_to 'Unix Shell Scripting', gdocs_index_path(:d => 'unixshellscripting') %></li>
+                <li><%= link_to 'Web Services', gdocs_index_path(:d => 'webservices') %></li>
+            </ul>
+        </div>
+    </div>
+</div>
